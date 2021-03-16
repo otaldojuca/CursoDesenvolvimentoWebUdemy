@@ -1,4 +1,6 @@
-// 34)
+// 08)
+// José Carlos Rodrigues Antonio
+// 0040961923011
 
 function caracString (string1, string2) {
 
