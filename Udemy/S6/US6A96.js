@@ -33,7 +33,6 @@ console.log(pessoa.dataNascimento)
 console.log(Object.keys(pessoa)) // se "enumerable" fosse "false", não estaria
                                  // listada a chave "dataNascimento"
 
-
 const dest = { a: 1 }
 const o1 = { b: 2 }
 const o2 = { c: 3, a: 4 }
