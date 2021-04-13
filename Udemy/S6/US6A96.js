@@ -14,12 +14,12 @@ console.log(Object.entries(pessoa))
 Object.entries(pessoa).forEach(element => {
     
     console.log(`${element[0]}: ${element[1]}`)
-});
+})
 // ou ainda
 Object.entries(pessoa).forEach(([chave, valor]) => {
     
     console.log(`${chave}: ${valor}`)
-});
+})
 
 
 Object.defineProperty(pessoa, "dataNascimento", {

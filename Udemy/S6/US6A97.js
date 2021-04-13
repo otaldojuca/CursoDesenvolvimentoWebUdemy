@@ -12,8 +12,8 @@ const volvo = {
 
 console.log(ferrari.prototype) // retorna "undefined"
 console.log(ferrari.__proto__) // revela quem é o pai de "ferrari"
-console.log(ferrari.__proto__ === Object.prototype)
-console.log(volvo.__proto__ === Object.prototype)
+console.log(ferrari.__proto__ === Object.prototype) // true
+console.log(volvo.__proto__ === Object.prototype) // true
 console.log(Object.prototype.__proto__) // Object.prototype não possui pai
 
 function meuObjeto() { }
