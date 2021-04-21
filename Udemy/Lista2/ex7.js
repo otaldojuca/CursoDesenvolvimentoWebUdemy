@@ -7,8 +7,9 @@
 
 let isBetween = (number, min, max, inclusive = false) => 
     ((inclusive && number >= min && number <= max) ||
-     (!inclusive && number > min && number < max)) ? true : false
+    (!inclusive && number > min && number < max)) ? true : false
 
+// Tests
 console.log(isBetween(7, -12, -5, false))
 console.log(isBetween(7, 5, 70))
 console.log(isBetween(7, 5, 7))

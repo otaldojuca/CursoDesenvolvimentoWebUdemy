@@ -12,6 +12,7 @@ let reverse = (input) => {
     else return `Digitar booleano ou número. O parâmetro é do tipo ${typeof input}.`
 }
 
+// Tests
 console.log(reverse(true))
 console.log(reverse(-27))
 console.log(reverse("calopsita"))

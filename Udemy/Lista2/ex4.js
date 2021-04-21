@@ -20,6 +20,7 @@ let month = (monthNumber) => {
     }
 }
 
+// Tests
 console.log(month(1))
 console.log(month(3))
 console.log(month("bom dia"))

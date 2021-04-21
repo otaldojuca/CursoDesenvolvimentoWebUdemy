@@ -3,6 +3,7 @@
 
 let sayHello = (text) => `Olá, ${text}!`
 
+// Tests
 console.log(sayHello("José"))
 console.log(sayHello("João"))
 console.log(sayHello("Aria"))

@@ -3,6 +3,7 @@
 
 let firstBigOrEqual = (num1, num2) => (num1 >= num2)
 
+// Tests
 console.log(firstBigOrEqual(0, 0))
 console.log(firstBigOrEqual(0, "0"))
 console.log(firstBigOrEqual(0, "8"))

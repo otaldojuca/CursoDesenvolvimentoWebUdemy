@@ -5,6 +5,7 @@
 
 let wage = (hoursWorked, moneyPerHour) => `Wage to receive: R$ ${hoursWorked * moneyPerHour}.`
 
+// Tests
 console.log(wage(40, 5))
 console.log(wage(45, 7))
 console.log(wage(28, 12))

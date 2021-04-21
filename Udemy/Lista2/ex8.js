@@ -5,6 +5,8 @@
 let multiply = (a, b) => {
 
     let sum = 0
+    a = Math.abs(a)
+    b = Math.abs(b)
 
     for (count = 0; count < b; count++) {
         sum += a
@@ -13,6 +15,10 @@ let multiply = (a, b) => {
     return sum
 }
 
+// Tests
 console.log(multiply(6, 7))
 console.log(multiply(0, 2))
 console.log(multiply(8, 0))
+console.log(multiply(0, 0))
+console.log(multiply(-2, 3))
+console.log(multiply(2, -4))

@@ -43,6 +43,7 @@ console.log()
 
 
 // Reduce - III
+// recriando a função .reduce()
 
 Array.prototype.reduce2 = function (callback, valorInicial) {
 
